@@ -2,9 +2,9 @@
   "name": "node-kodi-ws",
   "version": "2.2.0",
   "main": "lib/kodi-ws.js",
-  "author": "Bram van Oploo",
+  "author": "Florian Albertz",
   "contributors": [
-    "Florian Albertz"
+    "Bram van Oploo <bram@sudo-systems.com>"
   ],
   "license": "BSD-3-Clause",
   "description": "A wrapper for the kodi jsonrpc interface",
