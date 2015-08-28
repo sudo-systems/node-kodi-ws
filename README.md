@@ -1,15 +1,20 @@
 KODI JSON-RPC Websocket client
 ==============================
 
+*This project is a fork from the exellent [xbmc-ws](https://www.npmjs.com/package/xbmc-ws) project by Florian Albertz. I haven't really changed anything except remove the event emitter limit, changed the name and updated the dependencies.
+All credits go to Florian Albertz!*
+
+
+
 This module provides a simple way to communicate with an [Kodi](http://www.kodi.org) media center installation.
 It should not be restricted to a specific version of kodi, as it pulls all its information about the available methods from `JSONRPC.Introspect`.
 
-Install via `npm install xbmc-ws`
+Install via `npm install node-kodi-ws`
 
 Initiate
 --------
 ```js
-var kodi = require('xbmc-ws');
+var kodi = require('node-kodi-ws');
 
 kodi('localhost', 9090).then(function(connection) {
 	/* Do something with the connection */
