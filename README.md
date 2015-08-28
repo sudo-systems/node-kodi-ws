@@ -1,8 +1,7 @@
 KODI JSON-RPC Websocket client
 ==============================
 
-*This project is a fork from the exellent [xbmc-ws](https://www.npmjs.com/package/xbmc-ws) project by Florian Albertz. I haven't really changed anything except remove the event emitter limit, changed the name and updated the dependencies.
-All credits go to Florian Albertz!*
+*This project is a fork from the exellent [xbmc-ws](https://www.npmjs.com/package/xbmc-ws) project by Florian Albertz. I haven't really changed anything except remove the event emitter limit, changed the name (xbmc has become kodi) and updated the dependencies (ws and eslint) to their respective latest versions. All credits go to Florian Albertz!*
 
 
 
@@ -14,9 +13,9 @@ Install via `npm install node-kodi-ws`
 Initiate
 --------
 ```js
-var kodi = require('node-kodi-ws');
+var kodiWs = require('node-kodi-ws');
 
-kodi('localhost', 9090).then(function(connection) {
+kodiWs('localhost', 9090).then(function(connection) {
 	/* Do something with the connection */
 });
 ```
