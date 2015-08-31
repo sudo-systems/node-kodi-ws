@@ -6,7 +6,7 @@
   "contributors": [
     "Bram van Oploo <bram@sudo-systems.com>"
   ],
-  "license": "BSD-3-Clause",
+  "license": "GPL-2.0",
   "description": "A wrapper for the kodi jsonrpc interface",
   "repository": {
     "type": "git",
