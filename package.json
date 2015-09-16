@@ -1,6 +1,6 @@
 {
   "name": "node-kodi-ws",
-  "version": "2.2.1",
+  "version": "2.3.0",
   "main": "lib/kodi-ws.js",
   "author": "Florian Albertz",
   "contributors": [
